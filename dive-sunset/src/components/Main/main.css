@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .bannerimg {
     width: 100%;
 }
@@ -16,6 +23,21 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-weight: 600;
+}
+
+.looking{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 600;
+}
+
+.complete{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 600;
 }
 
 .writeboxImg {
@@ -23,14 +45,17 @@
 }
 
 .writebox {
+    margin-top: 1vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     background-color: #F4F4F6;
 
+    font-weight: 500;
+
     width: 18vw;
-    height: 20vw;
+    height: 18vw;
 
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
@@ -39,13 +64,25 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-evenly;
-    height: 15vw;
+    justify-content: space-around;
+    height: 13vw;
 }
 
 .info {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 20vw;
+    justify-content: space-between;
+    width: 15vw;
+}
+
+.comment {
+    display: flex;
+    width: 2.5vw;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.showAllButton {
+    margin-top: 3vw;
 }
