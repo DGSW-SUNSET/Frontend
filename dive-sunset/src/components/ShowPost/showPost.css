@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.postContents {
+    width: 4vw;
+}
+
+.postBox {
+    width: 90%;
+    border-top: 5px #238BE7 solid;
+    margin-left: 3vw;
+    padding: 1vw;
+}
+
+.contents {
+    margin-top: 1vw;
+    font-size: 1vw;
+}
+
+.titleType {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 95%;
+}
