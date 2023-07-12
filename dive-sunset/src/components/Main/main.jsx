@@ -5,7 +5,6 @@ import banner from "../../img/banner.svg";
 import dummyimg from "../../img/dummyimg.svg";
 import showAllButton from "../../img/showAllButton.svg";
 import { Link } from "react-router-dom";
-import heart from "../../img/heart.svg";
 import comment from "../../img/comment.svg";
 import complete from "../../img/complete.svg";
 import exchange from "../../img/exchange.svg";
@@ -27,7 +26,7 @@ function Main() {
                             님 : 고양이 인형이면 OK
                         </div>
                         <div className="info">
-                            <img src = {complete}></img>
+                            <img src = {exchange}></img>
                             <div className="comment">
                                 <img src = {comment}></img>
                                 0
@@ -45,7 +44,7 @@ function Main() {
                             님 : 고양이 인형이면 OK
                         </div>
                         <div className="info">
-                            <img src = {complete}></img>
+                            <img src = {finding}></img>
                             <div className="comment">
                                 <img src = {comment}></img>
                                 0
