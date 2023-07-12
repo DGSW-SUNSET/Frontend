@@ -101,3 +101,8 @@
 .box{
     border-bottom: 5px #238BE7 solid;
 }
+
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}

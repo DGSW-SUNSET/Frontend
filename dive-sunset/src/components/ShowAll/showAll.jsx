@@ -5,9 +5,13 @@ import comment from "../../img/comment.svg";
 import complete from "../../img/complete.svg";
 import exchange from "../../img/exchange.svg";
 import finding from "../../img/finding.svg";
+import axios from "axios";
+import ShowPost from "../ShowPost/showPost";
+import { Link } from "react-router-dom";
 
 function ShowAll() {
     const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+
     return (
         <>
             <Header className="head"></Header>
@@ -38,16 +42,18 @@ function ShowAll() {
 function WriteList() {
     return (
         <>
-            <div className="list">
-                <div className="listTitle">레몬 하나에는 레몬 하나만큼의 비타민이 들어 있습니다.</div>
-                <div className="listInfo">
-                    <div className="listComment">
-                        <img src={comment}></img>
-                        0
+            <Link to="/ShowPost" className="text-link">
+                <div className="list">
+                    <div className="listTitle">레몬 하나에는 레몬 하나만큼의 비타민이 들어 있습니다.</div>
+                    <div className="listInfo">
+                        <div className="listComment">
+                            <img src={comment}></img>
+                            0
+                        </div>
+                        <img src={finding} className="listState"></img>
                     </div>
-                    <img src={finding} className="listState"></img>
                 </div>
-            </div>
+            </Link>
         </>
     )
 }
