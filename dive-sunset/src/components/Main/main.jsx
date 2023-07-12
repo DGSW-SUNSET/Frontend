@@ -13,7 +13,7 @@ import finding from "../../img/finding.svg";
 function Main() {
     return (
         <>
-            <Header></Header>
+            <Header className="head"></Header>
             <img src={banner} className="bannerimg"></img>
             <div className="trade">
                 <div className="recent">

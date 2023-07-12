@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.head {
+    position: fixed;
+}
+
+.back {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.border {
+    width: 80%;
+    border-top: 1px #238BE7 solid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pageTitle {
+    font-weight: 800;
+    font-size: 2vw;
+    margin: 1vw;
+    margin-left: 2vw;
+}
+
+.pageButton{
+    margin-top: 3vw;
+    font-size: 2vw;
+}
+
+.writesbox {
+    display: flex;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: 90%;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px #878893 solid;
+    height: 3vw;
+    align-items: center;
+    font-size: 18px;
+}
+
+.listTitle{
+    margin-left: 3vw;
+    font-weight: 600;
+}
+
+.listInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 2.5vw;
+    align-items: center;
+}
+
+.listComment{
+    display: flex;
+    align-items: center;
+    margin-right: 3vw;
+    width: 3vw;
+    justify-content: space-between;
+}
+
+.writes {
+    background-color: #238BE7;
+    color: white;
+    margin-right: 6vw;
+    height: 2vw;
+    font-weight: 700;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infoTitle {
+    margin-left: 3vw;
+}
+
+.state {
+    margin-right: 3vw;
+}
+
+.listState{
+    height: 1vw;
+}
+
+.box{
+    border-bottom: 5px #238BE7 solid;
+}
