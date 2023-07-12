@@ -1,0 +1,9 @@
+.bannerimg {
+    width: 100%;
+}
+
+.trade {
+    display: flex;
+    justify-content: space-evenly;
+}
+

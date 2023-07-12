@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 100;
+}
+
+.linkTo {
+    display: flex;
+    margin-top: 1vw;
+
+}
+
+.home {
+    width: 10vw;
+    border-right: 1px #238BE7 solid;
+}
+
+.showAll {
+    width: 10vw;
+    border-right: 1px #238BE7 solid;
+}
+
+.write {
+    width: 10vw;
+}
+
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}
